@@ -1,0 +1,27 @@
+div div{
+    background-color: lightgray;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px  50px;
+
+}
+
+.item1 {
+    background-color: red;
+    grid-column: span 3;
+}
+
+.item2 {
+    background-color: orange;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item3 {
+    background-color: yellow;
+    grid-column: span 3;
+    grid-row: 3;
+}
